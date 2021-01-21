@@ -1,0 +1,97 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.title{
+    font-size: 2.6em;
+    line-height: 15px;
+    
+}
+
+.sub-title{
+    font-size: 1em;
+    
+}
+
+.about-heading{
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.section-border{
+    border: 2px solid white;
+    width: 78%;
+    align-items: center;
+}
+
+.section-border h3{
+    text-align: left;
+}
+
+.contact-text{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.contact-border{
+    border: 2px solid white;
+    height: 355px;
+}
+
+/* .form-border{
+    border: 2px solid red;
+    
+} */
+hr{
+    width: 15%;
+    height: 2px;
+    background-color: rgb(255, 217, 0);
+}
+
+.versand{
+    font-size: 50px;
+}
+
+.social-phone{
+    margin-top: 22px;
+}
+
+
+
+@media all and (max-width: 767px) {
+    .section-border h3{
+        font-size: 20px;
+        text-align: center !important;
+    }
+
+    label{
+        text-align: center;
+        
+    }
+
+    .contact-border h3{
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center !important;
+    }
+    .contact-text{
+        text-align: center;
+    }
+    .contact-border .social-phone{
+        margin: 5px;
+        text-align: center;
+    }
+}
